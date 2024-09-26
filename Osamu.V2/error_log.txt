@@ -1,0 +1,105 @@
+Python script error: C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Python script error: C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\PythonStuff\Osamu.V2\gemini.py", line 67, in <module>
+    embeddings_dict = load_embeddings('embeddings.json')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonStuff\Osamu.V2\gemini.py", line 42, in load_embeddings
+    with open(embeddings_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'embeddings.json'
+Python script error: C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Error loading embeddings: [Errno 2] No such file or directory: 'embeddings.json'
+Python script error: C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\PythonStuff\Osamu.V2\model.py", line 30, in <module>
+    print(json.dumps(embeddings))
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+Python script error: C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\PythonStuff\Osamu.V2\model.py", line 30, in <module>
+    print(json.dumps(embeddings))
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+Python script error: C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\PythonStuff\Osamu.V2\model.py", line 30, in <module>
+    print(json.dumps(embeddings))
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+Python script error: C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\PythonStuff\Osamu.V2\model.py", line 30, in <module>
+    print(json.dumps(embeddings))
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+Python script error:   File "C:\PythonStuff\Osamu.V2\gemini.py", line 49
+    folder_path = "C:\Users\Mihlali.Mtiki\OneDrive - EOH\Documents\Work\chatBot\Embeding"
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+Python script error: C:\Users\Mihlali.Mtiki\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\PythonStuff\Osamu.V2\model.py", line 29, in <module>
+    embeddings = save_embeddings(folder_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonStuff\Osamu.V2\model.py", line 22, in save_embeddings
+    sentences = process_file(file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonStuff\Osamu.V2\model.py", line 12, in process_file
+    with open(file_path, 'r', encoding=encoding, errors='replace') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Mihlali.Mtiki\\OneDrive - EOH\\Documents\\Work\\chatBot\\Embeding\\666b36e942f97.txt'
+No message content provided
