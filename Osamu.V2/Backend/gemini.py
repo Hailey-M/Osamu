@@ -2,7 +2,7 @@ import sys
 import json
 import google.generativeai as genai
 
-API_KEY = "AIzaSyAz5MTLtuG5p5Yuwdl-l6_kXfjql8HUatY" 
+API_KEY = "Insert Your API Key here" 
 
 def connect_and_query(prompt):
     try:
